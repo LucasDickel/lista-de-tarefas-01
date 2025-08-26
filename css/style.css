@@ -1,6 +1,12 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url(./imagens/fundo.jpg);
+  background: linear-gradient(
+    to bottom,
+    #87ceeb 0%, 
+    #b0e0e6 30%,  
+    #ffffff 60%,  
+    #87ceeb 100%  
+  );
   display: flex;
   justify-content: center;
   align-items: center;
